@@ -1,0 +1,57 @@
+    1  clear
+    2  git config --global user.name "Samet Gündüz"
+    3  git config --global user.email "samet2002gunduz35@hotmail.com"
+    4  clear
+    5  whoiam
+    6  clear
+    7  git config --global user.name
+    8  git config --global user.email
+    9  git config -- global user.mail "samet_gndz35@hotmail.com"
+   10  git config --glboal user.email "samet_gndz35@hotmail.com"
+   11  --git config --global user.email
+   12  clear
+   13  git config --global user.email
+   14  git config --global user.email "samet_gndz35@hotmail.com"
+   15  git config --global user.email
+   16  clear
+   17  cd /Desktop/gitodev
+   18  clear
+   19  /c/Users/Samet Gündüz/Desktop/gitodev
+   20  git config --global user.name
+   21  git config --gloval user.name "samet"
+   22  clear
+   23  git config --global user.name "samet"
+   24  git config --global user.name
+   25  clear
+   26  cd /c/Users/Samet/Desktop/gitodev
+   27  cd /c/Users/Samet/Masaüstü/gitodev
+   28  cd /c/Users/samet/EXCALIBUR/Desktop/gitodev
+   29  cd /c/Users/EXCALIBUR/Desktop/gitodev
+   30  cd /c/Users/EXCALIBUR/Desktop/HW_10
+   31  git clone https://github.com/samettgndz/HW_10.git
+   32  cd HW_10
+   33  touch text_ignore.txt
+   34  nano .gitignore
+   35  nano .gitignore
+   36  clear
+   37  nano .gitignore
+   38  git status
+   39  git add .
+   40  git commit -m "feat: text_ignore.txt .gitignore'a eklendi"
+   41  git push
+   42  touch main_test.txt
+   43  git add.
+   44  git add .
+   45  git commit -m "feat: main_test.txt dosyası eklendi"
+   46  git checkout -b develop
+   47  touch develop_test.txt
+   48  git add .
+   49  git commit -m "feat: develop_test.txt dosyası eklendi (G3)"
+   50  echo "Bu gelistirme dalinda yapilan ilk degisikliktir." > develop_test.txt
+   51  git status
+   52  git add .
+   53  git commit -m "refactor: develop_test.txt icerigi guncellendi (G3)"
+   54  git checkout main
+   55  git merge develop
+   56  git log --oneline --graph
+   57  history > command_list.csv
